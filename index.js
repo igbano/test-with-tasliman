@@ -5,9 +5,9 @@ class GitHubClient {
     constructor() {
       const ghClient = new Octokit({
         auth: ``
-      })
+      });
   
-      this.client = ghClient.rest
+      this.client = ghClient.rest;
     }
   
     async createDeployment(deployment) {
