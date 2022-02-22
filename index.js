@@ -4,7 +4,7 @@ const { Octokit } = require('@octokit/rest')
 class GitHubClient {
     constructor() {
       const ghClient = new Octokit({
-        auth: `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`
+        auth: ``
       });
   
       this.client = ghClient.rest;
